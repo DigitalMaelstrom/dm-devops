@@ -1,0 +1,26 @@
+#cloud-config
+groups:
+  - dmops
+users:
+  - default
+  - name: mhuston
+    gecos: Michael Huston (DM)
+    sudo: ALL=(ALL) NOPASSWD:ALL
+    groups: dmops
+    shell: /bin/bash
+    ssh-authorized-keys:
+      - ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCyGdkb1Uo7pdMQGK4852KKBciIK6IJ3FyQB+DIekKYMpai4xtSwmWybv8BD5oALhInIDqP4O0TIvuNVXqnntIrp1t64t+1h6d305s6QirgqqSpg5hYQVBzVxksNzfrvqm7hcBP85dUM0eBrkwq5e2+RjZcSrts7xH1S1sZMxGBGq4fkeu12v0aEb6SOLNVRBSQgYNFq0+yfQMUKVpkZQPz+XRkFrJenxHt5Ew87OjbjPc7TnbppAtX2vNwZR16oviYDKrib2m9/CdKO/R8RpYIzxVFJZhK4Z3HOwn+dr4SQ0pDHablgPPi0/csASsdgrg/nt9RJonxE9C6yM6blhot
+  - name: jsh
+    gecos: Jeff Stice-Hall (DM)
+    sudo: ALL=(ALL) NOPASSWD:ALL
+    groups: dmops
+    shell: /bin/bash
+    ssh-authorized-keys:
+      - ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDBsHifsoma6c43zxSfpkDB9F56QJiW2oQM+9CkLgzCTwA4Y7d69QVQ3KhIt09O6K3eJcO42Pf7eLLaR0cXMrlqmxe05FpPbHAJfnDfwCIBLjNpyZ5QV1Crskk/wemlwMdcgSwhthXD/HcTTMszcS5iKM+lZyc6V8Jquf2sF2myp0VsvdzRdjCqRm5FmLSbBlw8RQXsCYBUfT2NJZoowh5BbJ/xwMntxhGg+WJpyAvqprZ12d17uRQJbJtI8JlXH6tQechhBNpM01MkOzqQdPXPjLSQktsBs+wt7P9pd6TJopwy7on6Jwo2a7+UH/s5MAMVA1l4Kv4wMYX8VfWK2RwF
+  - name: rwhitehouse
+    gecos: Ryan Whitehouse (DM)
+    sudo: ALL=(ALL) NOPASSWD:ALL
+    groups: dmops
+    shell: /bin/bash
+    ssh-authorized-keys:
+      - ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQC+xxuGqhq/Tj6Xvk6xtRubzNnxXvVl/KyufLezL+AXsDvoSgT0Gn9n9axJcJeJnZBdAgt1mvPJz8yi1q/i8OlGQaf/I6ShBcnNpFPPMHuy37BDHMeVYv6c8YnDw5CDGyaJXR5un4yyqI0VtOPzPAQWTKfBG13AoX48MLMevMXBm17LyytRTfK0URKCkBSKiW4d8lk8hy910To1R88W/W1+4hDE+2KydJGekwXAx2sfwLAtq6rZe9tqJYJeK283KAABU5XnxamICNlQQYargdsem9JngFJJEYGm8dfnkPDrGZWWdnW0Z/vKXtSVS+zlCsVaqu648gWk+QKvak/1zBVD
