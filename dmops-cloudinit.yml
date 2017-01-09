@@ -17,3 +17,10 @@ users:
     shell: /bin/bash
     ssh-authorized-keys:
       - ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDBsHifsoma6c43zxSfpkDB9F56QJiW2oQM+9CkLgzCTwA4Y7d69QVQ3KhIt09O6K3eJcO42Pf7eLLaR0cXMrlqmxe05FpPbHAJfnDfwCIBLjNpyZ5QV1Crskk/wemlwMdcgSwhthXD/HcTTMszcS5iKM+lZyc6V8Jquf2sF2myp0VsvdzRdjCqRm5FmLSbBlw8RQXsCYBUfT2NJZoowh5BbJ/xwMntxhGg+WJpyAvqprZ12d17uRQJbJtI8JlXH6tQechhBNpM01MkOzqQdPXPjLSQktsBs+wt7P9pd6TJopwy7on6Jwo2a7+UH/s5MAMVA1l4Kv4wMYX8VfWK2RwF
+  - name: rmerschbrock
+    gecos: Ray Merschbrock (DM)
+    sudo: ALL=(ALL) NOPASSWD:ALL
+    groups: dmops
+    shell: /bin/bash
+    ssh-authorized-keys:
+      - ssh-rsa ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQDRt7iJAmQ+HWlBqkh1/NRRc5xOhJBjvW/oiTvSEEiTR7SrCuu++C5cIViWlP/4x6/5Xi9oDLn20hm7ZsadhymQlo/3rtjvq42RaWTii/lVPYPgHJ6GB8DSpXQRQCSnU9RyV2S5gVKT5KOyh++MaPt5gIUIlCvKRvlMVnPtoLN7UgEa9FkydnZ3esnbEhCPeB03qW2J0+EA2kYuBJm8MtNPRW/gUlCGJORfMYX8t+NFvRNifefO1weslHb6DdIWR/9VoP3u8tvCRzHSbwASjrFQxKgcFDtIhPzMQXBQi2f/93C6aH2j2Cww+odTOidpgUIu8Vua4+JwMDVrq0VYuJ3ieUhdpazoNq2L9oBIjT6roZhavhrnf1coQbizgn2OZHGCfykHC4hHDVzs7SBIZ5aS66mq2jgIN0E4np+M3l8UmuXlEMFQAAbZ8i4N1rOQHKu//9vTMZIRnkplDXrAuBRrTegimk0DQgr325mWBnRer3E6fnxqZ3yFVAebfv/xj1thL6FX12285VleTmXA2W+ElpCJESQcDu84BJec2Xj7U+kz+Lp1ColCCW3mzteVxzeOXmiK/ec5UUP55HZyqNROpClvsOfzYqkUFrIcrwl+5C6YDWSEYJDhEoEBulEmKokwuCFZmQJX91EG9mqR8QdGWwPwVYScCY+v8gG2GzAgew==
