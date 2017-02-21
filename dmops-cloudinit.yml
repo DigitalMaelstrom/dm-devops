@@ -3,7 +3,7 @@ groups:
   - dmops
 users:
   - default
-  - name: mhuston
+  - name: mhl
     gecos: Michael Huston (DM)
     sudo: ALL=(ALL) NOPASSWD:ALL
     groups: dmops
