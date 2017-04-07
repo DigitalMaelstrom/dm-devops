@@ -4,10 +4,10 @@ groups:
 users:
   - default
   - name: mhl
-    gecos: Michael Huston (DM)
+    gecos: Michael Huston-Lowery (DM)
     sudo: ALL=(ALL) NOPASSWD:ALL
     groups: dmops
-    shell: /bin/bash
+    shell: /bin/zsh
     ssh-authorized-keys:
       - ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCyGdkb1Uo7pdMQGK4852KKBciIK6IJ3FyQB+DIekKYMpai4xtSwmWybv8BD5oALhInIDqP4O0TIvuNVXqnntIrp1t64t+1h6d305s6QirgqqSpg5hYQVBzVxksNzfrvqm7hcBP85dUM0eBrkwq5e2+RjZcSrts7xH1S1sZMxGBGq4fkeu12v0aEb6SOLNVRBSQgYNFq0+yfQMUKVpkZQPz+XRkFrJenxHt5Ew87OjbjPc7TnbppAtX2vNwZR16oviYDKrib2m9/CdKO/R8RpYIzxVFJZhK4Z3HOwn+dr4SQ0pDHablgPPi0/csASsdgrg/nt9RJonxE9C6yM6blhot
   - name: jsh
