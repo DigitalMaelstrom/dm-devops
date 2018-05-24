@@ -17,7 +17,7 @@ users:
     shell: /bin/bash
     ssh-authorized-keys:
       - ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDBsHifsoma6c43zxSfpkDB9F56QJiW2oQM+9CkLgzCTwA4Y7d69QVQ3KhIt09O6K3eJcO42Pf7eLLaR0cXMrlqmxe05FpPbHAJfnDfwCIBLjNpyZ5QV1Crskk/wemlwMdcgSwhthXD/HcTTMszcS5iKM+lZyc6V8Jquf2sF2myp0VsvdzRdjCqRm5FmLSbBlw8RQXsCYBUfT2NJZoowh5BbJ/xwMntxhGg+WJpyAvqprZ12d17uRQJbJtI8JlXH6tQechhBNpM01MkOzqQdPXPjLSQktsBs+wt7P9pd6TJopwy7on6Jwo2a7+UH/s5MAMVA1l4Kv4wMYX8VfWK2RwF
-  - name: kstice
+  - name: kdsh
     gecos: Kristopher Stice-Hall (DM)
     sudo: ALL=(ALL) NOPASSWD:ALL
     groups: dmdev
