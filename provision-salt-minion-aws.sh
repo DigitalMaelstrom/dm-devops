@@ -31,7 +31,7 @@ print_error() {
 }
 
 is_service_loaded() {
-  if which systemctl > /dev/null; then
+  if which systemctl > /dev/null 2> /dev/null; then
     if systemctl status $1 | grep -qi " Loaded: loaded "; then
       echo "1"
     else
@@ -49,7 +49,7 @@ is_service_loaded() {
 }
 
 is_service_active() {
-  if which systemctl > /dev/null; then
+  if which systemctl > /dev/null 2> /dev/null; then
     if systemctl status $1 | grep -qi " Active: active (running) "; then
       echo "1"
     else
@@ -67,7 +67,7 @@ is_service_active() {
 }
 
 disable_service() {
-  if which systemctl > /dev/null; then
+  if which systemctl > /dev/null 2> /dev/null; then
     systemctl stop $1
     systemctl disable $1
   else
@@ -88,7 +88,7 @@ disable_service() {
 }
 
 start_service() {
-  if which systemctl > /dev/null; then
+  if which systemctl > /dev/null 2> /dev/null; then
     systemctl start $1
   else
     if status $1 | grep -qi "^$1"; then
