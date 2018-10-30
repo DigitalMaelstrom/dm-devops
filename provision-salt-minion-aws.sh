@@ -81,7 +81,9 @@ disable_service() {
     else
       update-rc.d $1 disable
     fi
-    mv /etc/init/$1.conf /etc/init/$1.conf.disabled
+    if [ -f /etc/init/$1.conf ]; then 
+      mv /etc/init/$1.conf /etc/init/$1.conf.disabled
+    fi 
   fi
 }
 
