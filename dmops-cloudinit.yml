@@ -30,7 +30,7 @@ users:
     ssh-authorized-keys:
       - ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCdkHPk2I9Xgb4lZgSUEPtFvdGg0Bqs3HHRYyA5pgdisMoVeNfFfc1Gp6rPtXMOciz09UILcFJBRX+z6Y/1ayqQA9DCLedBSFn9muCsjHnD3d929pO7OVsFJRlaAy1UpjxXiTpkNmpHnGc+Il2/TzVniniYMUOr7vv4jbqrskOOkF9yrmf2J7j+tsMjFEr/vmX0to3MdULxQUiDFIx+4I2tNFM58rskbN+Vr9DxNWrMjKwU5Ph2eldO7gA5NrHP36p2Gcl7w03S+ImDVT1UbeNGKZimOJYvRFlcGJsOn5TPwJbBmNjUOUfIiqcKNazT5bEnpe0+uJ7V1M3YfKiEohkt      
   - name: clw
-    gecos: Christen Ward (DM)
+    gecos: Cole Ward (DM)
     sudo: ALL=(ALL) NOPASSWD:ALL
     groups: dmops
     shell: /bin/bash
